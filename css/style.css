@@ -7,6 +7,7 @@ h2 {
     margin-left: 1%;
 }
 
+/*
 .banner {
     display: flex;
     background: linear-gradient(white, blue);
@@ -14,17 +15,17 @@ h2 {
 
 .bannertext {
     color: white;
-    margin-left: 1%;
 }
-
 .bannertext h1 {
     text-shadow: 2px 2px 4px #000000;
     font-size: 300%;
+}*/
+
+.socialmedia {
+    display: flex;
 }
 
-.aboutusbackground {
-    display:flex;
-    background: linear-gradient(red, blue);
+.socialmediacontent {
 }
 
 .teammember {
@@ -34,6 +35,11 @@ h2 {
     margin-right: 5%;
     text-align: center;
     color: white;
+}
+
+.aboutusbackground {
+    display: flex;
+    background: linear-gradient(red, blue);
 }
 
 .teammember img {
