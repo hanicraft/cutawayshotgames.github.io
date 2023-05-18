@@ -7,9 +7,22 @@ h2 {
     margin-left: 1%;
 }
 
-.background {
-    height: 200%;
-    width: 100%;
+.banner {
+    display: flex;
+    background: linear-gradient(white, blue);
+}
+
+.bannertext {
+    color: white;
+    margin-left: 1%;
+}
+
+.bannertext h1 {
+    text-shadow: 2px 2px 4px #000000;
+    font-size: 300%;
+}
+
+.aboutusbackground {
     display:flex;
     background: linear-gradient(red, blue);
 }
@@ -26,4 +39,8 @@ h2 {
 .teammember img {
     border-radius: 100%;
     box-shadow: rgba(0, 0, 0, 0.19) 0px 10px 20px, rgba(0, 0, 0, 0.23) 0px 6px 6px;
+}
+
+footer {
+    text-align:center;
 }
