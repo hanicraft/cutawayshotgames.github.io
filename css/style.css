@@ -2,6 +2,10 @@
     font-family: 'Poppins', sans-serif;
 }
 
+h1 {
+    margin-bottom: 5px;
+}
+
 h2 {
     color: white;
     margin-left: 1%;
@@ -15,9 +19,6 @@ h2 {
     margin-bottom: 5px;
 }
 
-h1 {
-    margin-bottom: 5px;
-}
 
 /*
 .banner {
@@ -54,4 +55,11 @@ h1 {
 
 footer {
     text-align:center;
+}
+
+.topnav {
+    background-color: white;
+    top: 0%;
+    width: 100%;
+    position: fixed;
 }
