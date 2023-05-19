@@ -7,6 +7,18 @@ h2 {
     margin-left: 1%;
 }
 
+.h1underline {
+    top: 100%;
+    width: 20%;
+    height: 10px;
+    background: linear-gradient(90deg, red, blue);
+    margin-bottom: 5px;
+}
+
+h1 {
+    margin-bottom: 5px;
+}
+
 /*
 .banner {
     display: flex;
@@ -20,13 +32,6 @@ h2 {
     text-shadow: 2px 2px 4px #000000;
     font-size: 300%;
 }*/
-
-.socialmedia {
-    display: flex;
-}
-
-.socialmediacontent {
-}
 
 .teammember {
     width: 10%;
