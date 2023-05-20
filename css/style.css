@@ -78,5 +78,7 @@ h2 {
 }
 
 footer {
+    background: black;
+    color: white;
     text-align:center;
 }
