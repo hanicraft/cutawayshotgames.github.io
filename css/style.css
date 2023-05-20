@@ -11,6 +11,30 @@ h2 {
     margin-left: 1%;
 }
 
+.navbar {
+    background-color: white;
+    top: 0%;
+    width: 100%;
+    /*position: fixed;*/
+    padding-right: 15px;
+    padding-left: 15px;
+}
+
+.topnav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.topnav ul li {
+    list-style: none;
+    display: inline-block;
+}
+
+.topnav ul li a {
+    padding-right: 40px; font-size: 15px;
+}
+
 .h1underline {
     top: 100%;
     width: 20%;
@@ -34,7 +58,7 @@ h2 {
     font-size: 300%;
 }*/
 
-.teammember {
+    .teammember {
     width: 10%;
     height: 15%;
     margin-top: 5%;
@@ -55,11 +79,4 @@ h2 {
 
 footer {
     text-align:center;
-}
-
-.topnav {
-    background-color: white;
-    top: 0%;
-    width: 100%;
-    position: fixed;
 }
