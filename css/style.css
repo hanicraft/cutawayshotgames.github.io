@@ -43,22 +43,34 @@ h2 {
     margin-bottom: 5px;
 }
 
+.game {
+    width: 80%;
+}
 
-/*
-.banner {
+.gametitle {
     display: flex;
-    background: linear-gradient(white, blue);
+    align-items: center;
 }
 
-.bannertext {
-    color: white;
+.gametitle h1 {
+    margin-left: 15px;
 }
-.bannertext h1 {
-    text-shadow: 2px 2px 4px #000000;
-    font-size: 300%;
-}*/
 
-    .teammember {
+.gametitle img {
+    border-radius: 20%;
+    box-shadow: rgba(0, 0, 0, 0.19) 0px 10px 20px, rgba(0, 0, 0, 0.23) 0px 6px 6px;
+}
+
+.screenshots {
+    display: flex;
+    align-items: center;
+}
+
+.screenshots img {
+    margin-right: 15px;
+}
+
+.teammember {
     width: 10%;
     height: 15%;
     margin-top: 5%;
